@@ -20,14 +20,8 @@ h1 {
 
 @media screen and (max-width:800px) {
      .paragraph {
-          margin:50px auto 0 auto;
+          margin: 50px auto 0 auto;
           transform: translateY(-70px);
-     }
-}
-
-@media screen and (max-height:812px) {
-     .name, .paragraph {
-          transform: translateY(-140px);
      }
 }
 
@@ -68,7 +62,7 @@ a:hover {
 
 @media screen and (max-width:800px) {
      .top-container {
-          padding-top:360px;
+          padding-top: 260px;
      }
 }
 
@@ -80,12 +74,10 @@ a:hover {
 
 @media screen and (max-width:800px) {
      .top-cloud {
-          top:10%;
-          right:55%;
+          top: 11%;
+          right: 60%;
      }
 }
-
-
 
 .bottom-cloud {
      position: absolute;
@@ -95,8 +87,8 @@ a:hover {
 
 @media screen and (max-width:800px) {
      .bottom-cloud {
-          left: 55%;
-          bottom: 35%;
+          left: 60%;
+          bottom: 33%;
      }
 }
 
@@ -128,7 +120,7 @@ a:hover {
      .second_img {
           float: none;
           width: 45%;
-          margin-right:auto;
+          margin-right: auto;
      }
 }
 
@@ -140,9 +132,9 @@ a:hover {
 
 @media screen and (max-width:800px) {
      .third_img {
-          float:none;
+          float: none;
           width: 45%;
-          margin:auto;
+          margin: auto;
      }
 }
 
@@ -151,6 +143,7 @@ a:hover {
      margin: 100px auto 100px auto;
      text-align: left;
 }
+
 @media screen and (max-width:800px) {
      .skill-row {
           text-align: center;
@@ -158,14 +151,18 @@ a:hover {
 }
 
 @media screen and (max-width:800px) {
-     .code-skill-desc, .code-skill-desc, .design, .hobby {
-          clear:both;
+
+     .code-skill-desc,
+     .code-skill-desc,
+     .design,
+     .hobby {
+          clear: both;
      }
 }
 
 @media screen and (max-width:800px) {
      .skill-row {
-          width:80%;
+          width: 80%;
      }
 }
 
